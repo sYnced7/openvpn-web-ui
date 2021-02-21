@@ -1,6 +1,6 @@
 FROM debian:jessie
 WORKDIR /opt
-EXPOSE 8080
+EXPOSE 4303
 
 RUN apt-get update && apt-get install -y easy-rsa
 RUN chmod 755 /usr/share/easy-rsa/*
